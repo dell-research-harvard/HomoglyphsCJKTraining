@@ -1,2 +1,4 @@
 # Quantifying-Character-Similarity
-Quantifying Character Similarity with Vision Transformers
+Code for our paper: Quantifying Character Similarity with Vision Transformers
+
+This repo includes
