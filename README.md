@@ -10,5 +10,6 @@ This repo includes
 
 For the Ancient Chinese Character Dataset:
 - Meta data file: coming soon..
-- Folder for Character Images: coming soon..
+- Ancient Chinese Character Images: We draw our character images from https://xiaoxue.iis.sinica.edu.tw/yanbian
+- Folder of visualization: coming soon..
 
