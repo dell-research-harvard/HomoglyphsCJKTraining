@@ -9,6 +9,6 @@ This repo includes
 - Scripts for homoglyph sets: coming soon...
 
 For the Ancient Chinese Character Dataset:
--Meta data file: https://www.dropbox.com/s/4h78h7czut0mfpb/df_public_meta.csv?dl=0
--Folder for Character Images: coming soon..
+- Meta data file: https://www.dropbox.com/s/4h78h7czut0mfpb/df_public_meta.csv?dl=0
+- Folder for Character Images: coming soon..
 
