@@ -14,16 +14,18 @@ python c_j_k_match_top_10.py --lang zhs_easy_paddle_80000 --save_output ./c_j_k_
 python c_j_k_match_top_10.py --lang zht_paddle_easy --save_output ./c_j_k_match_top_10_zht_paddle_easy --homo --multilang_dir multilang_results --lev --fuzzychinese --simstring
 
 # Paddle to GT
-python c_j_k_match_top_10.py --lang zht --save_output ./zht_paddle_GT_easy_expanded --homo --lev --simstring --fuzzychinese --multilang_dir multilang_results
-python c_j_k_match_top_10.py --lang zhs_80000 --save_output ./zhs_paddle_GT_easy_expanded --homo --lev --simstring --fuzzychinese --multilang_dir multilang_results
-python c_j_k_match_top_10.py --lang ja --save_output ./ja_paddle_GT_easy_expanded --homo --lev --simstring --fuzzychinese --multilang_dir multilang_results
-python c_j_k_match_top_10.py --lang ko --save_output ./ko_paddle_GT_easy_expanded --homo --lev --simstring --fuzzychinese --multilang_dir multilang_results
+python c_j_k_match_top_10.py --lang zht --save_output ./zht_top10 --homo --lev --simstring --fuzzychinese --multilang_dir multilang_results
+python c_j_k_match_top_10.py --lang zhs_80000 --save_output ./zhs_80000_results --homo --lev --simstring --fuzzychinese --multilang_dir multilang_results
+python c_j_k_match_top_10.py --lang ja --save_output ./ja_paddle_top10_result --homo --lev --simstring --fuzzychinese --multilang_dir multilang_results
+python c_j_k_match_top_10.py --lang ko --save_output ./c_j_k_match_top_10_test --homo --lev --simstring --fuzzychinese --multilang_dir multilang_results
 
 # Easy to GT
-python c_j_k_match_top_10.py --lang ja_easy --save_output ./ja_easy_GT_easy_expanded --homo --lev --fuzzychinese --simstring --multilang_dir multilang_results
-python c_j_k_match_top_10.py --lang ko_easy --save_output ./ko_easy_GT_easy_expanded --homo --lev --fuzzychinese --simstring --multilang_dir multilang_results
-python c_j_k_match_top_10.py --lang zhs_easy_80000 --save_output ./zhs_easy_GT_easy_expanded --homo --lev --fuzzychinese --simstring --multilang_dir multilang_results
-python c_j_k_match_top_10.py --lang zht_easy --save_output ./zht_easy_GT_easy_expanded --homo --lev --fuzzychinese --simstring --multilang_dir multilang_results
+python c_j_k_match_top_10.py --lang ja_easy --save_output ./c_j_k_match_top_10_ja_easy --homo --lev --fuzzychinese --simstring --multilang_dir multilang_results
+python c_j_k_match_top_10.py --lang ko_easy --save_output ./c_j_k_match_top_10_ko_easy --homo --lev --fuzzychinese --simstring --multilang_dir multilang_results
+python c_j_k_match_top_10.py --lang zhs_easy_80000 --save_output ./c_j_k_match_top_10_zhs_easy_80000_expand --homo --lev --fuzzychinese --simstring --multilang_dir multilang_results
+python c_j_k_match_top_10.py --lang zht_easy --save_output ./c_j_k_match_top_10_zht_easy --homo --lev --fuzzychinese --simstring --multilang_dir multilang_results
+
+
 
 # Replicate Synthetic Matching accuracy, including the path to all final matched files
 python aggregate_accuracy_easy_2_paddle.py
