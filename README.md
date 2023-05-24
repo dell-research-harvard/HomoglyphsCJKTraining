@@ -6,7 +6,8 @@ This repo includes
 - CJK Fonts are [here](https://www.dropbox.com/scl/fo/5ch7q7naqayia0pbeq5yo/h?dl=0&rlkey=u9ucpwnpetr3b2eoqwoqlslrn).
 - Scripts for japanese supply chain matching
 - Scripts for Synthetic Chinese, Japanese, Korean placenames matching 
-- Scripts for homoglyph sets: coming soon...
+- Scripts for ViT training and Inference for homoglyphs dicts: coming soon...
+- Scripts for ViT training and Inference for Ancient Chinese: coming soon...
 
 For the Ancient Chinese Character Dataset:
 - Meta data file: coming soon..
