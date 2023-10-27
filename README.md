@@ -1,5 +1,5 @@
 # Quantifying-Character-Similarity
-[![arXiv](https://img.shields.io/badge/arXiv-2309.00789-b31b1b.svg)](https://arxiv.org/abs/2305.14672)
+[![arXiv](https://img.shields.io/badge/arXiv-2305.14672-b31b1b.svg)](https://arxiv.org/abs/2305.14672)
 
 This repo includes
 - Tutorials: [notebook](https://colab.research.google.com/drive/1hWiWbazsIZJUmNs2i8eTZ5BvSWfKe0fp?usp=sharing) 
